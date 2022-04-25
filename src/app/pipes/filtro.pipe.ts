@@ -10,6 +10,7 @@ export class FiltroPipe implements PipeTransform {
       texto: string = '',
       columna: string = 'title'): any[]  {
 
+        console.log(arreglo, texto, columna);
  
     if (texto === "") {
       return arreglo;

@@ -41,6 +41,7 @@ export class ModalPage implements OnInit {
     console.log(resp);
     console.log(resp.data.nombre);
     console.log(resp.data.pais);
+    console.log(JSON.stringify(resp));
     // console.log(data);
     // console.log(role); 
   }

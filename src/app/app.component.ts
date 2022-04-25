@@ -15,6 +15,7 @@ export class AppComponent {
  
   ngOnInit() {
     this.componentes = this.dataService.getMenuOpciones();
+    console.log(this.componentes);
   }
 
   constructor(private dataService: DataService) {}

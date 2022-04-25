@@ -32,4 +32,8 @@ export class SegmentPage implements OnInit {
 
   }
 
+  selectSegment(){
+    
+  }
+
 }
