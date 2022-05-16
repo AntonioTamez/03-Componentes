@@ -1,7 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'ats.recipro.componentes',
   appName: '03-componentes',
   webDir: 'www',
   bundledWebRuntime: false
